@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  const correctPassword = "SAHOU"; // ← غيرها من GitHub فقط
+  const correctPassword = "SAHOU123"; // ← غيرها من GitHub فقط
 
   const style = document.createElement("style");
   style.innerHTML = `
@@ -63,3 +63,4 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
 });
+
