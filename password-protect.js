@@ -2,7 +2,7 @@
 // أو https://raw.githubusercontent.com/your-repo/main/password-protect.js
 
 const PasswordConfig = {
-  correctPassword: "SAHOU", // هنا غير كلمة المرور مرة واحدة
+  correctPassword: "SAHOU123", // هنا غير كلمة المرور مرة واحدة
   enabledPages: ["/", "/index.html"] // الصفحات التي تطبق عليها الحماية
 };
 
@@ -111,4 +111,5 @@ function loadPasswordProtection() {
 }
 
 // تشغيل الحماية عند تحميل الصفحة
+
 document.addEventListener("DOMContentLoaded", loadPasswordProtection);
